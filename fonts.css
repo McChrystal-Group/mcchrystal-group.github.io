@@ -1,0 +1,72 @@
+/**
+ * If using `cssnano`, then use version 4.x.x because lower versions may strip @font-face rules from the compiled CSS.
+ * See: https://github.com/cssnano/cssnano/issues/374
+ */
+
+/* Light */
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-Light.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-Light.eot") format("eot");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-LightItalic.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-LightItalic.eot") format("eot");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-Book.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-Book.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-BookItalic.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-BookItalic.eot") format("eot");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-Medium.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-Medium.eot") format("eot");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-MediumItalic.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-MediumItalic.eot") format("eot");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-Bold.eot") format("eot");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  src: url("fonts/CooperHewitt/CooperHewitt-BoldItalic.woff") format("woff"),
+       url("fonts/CooperHewitt/CooperHewitt-BoldItalic.eot") format("eot");
+  font-weight: 700;
+  font-style: italic;
+}
